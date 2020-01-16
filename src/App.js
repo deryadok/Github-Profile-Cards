@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-// import axios from './axios';
 
 function App() {
   return (
@@ -24,7 +23,6 @@ class Card extends React.Component{
           <div className="info" style={{display:'inline-block', marginLeft: 10, marginBottom: 10}}>
             <div className="name" style={{fontSize: '125%'}}>{profile.name}</div>
             <div className="company">{profile.company}</div>
-            {/* <div style={{color: Math.random() < 0.5 ? 'green' : 'red'}}>DENEME DENEME</div> */}
           </div>
         </div>
       </div>
